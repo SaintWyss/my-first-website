@@ -3,7 +3,10 @@
 }
 .background{
   background-image: url("img/fondointro.jpg");
+  max-height: 100%;
+  padding: 12px;
 }
+
 .intro {
   padding: 100px 50px;
   background-size: cover;
