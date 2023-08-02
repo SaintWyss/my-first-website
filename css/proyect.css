@@ -1,0 +1,154 @@
+.background{
+  background-image: url("img/fondointro.jpg");
+}
+
+.background{
+  background-image: url("img/fondointro.jpg");
+}
+
+.intro {
+  padding: 100px 50px;
+  background-size: cover;
+}
+
+.left-container {
+  display: flex;
+  justify-content: center;
+  /* Centrar los elementos horizontalmente */
+  align-items: center;
+  /* Centrar los elementos verticalmente */
+  background-color: rgba(0, 0, 0, 0.8);
+  /* Un fondo negro con opacidad del 50% */
+  padding: 20px;
+  /* Agrega un espaciado interno para separar el contenido del borde */
+  width: 900px;
+  /* Ajustar el ancho del contenedor */
+  height: 250px;
+  /* Ajustar el alto del contenedor */
+}
+
+.my-photo-content {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  /* Transición para el efecto de rotación */
+  margin-right: 20px;
+  /* Espacio entre la imagen y el texto */
+}
+
+.circular-image {
+  /* Estilos para la imagen dentro del contenedor */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.my-photo-content:hover {
+  /* Efecto de rotación al pasar el ratón sobre el contenedor */
+  transform: rotate(360deg);
+}
+
+.intro-my-info {
+  flex: 1;
+  text-align: left;
+}
+
+.intro-my-info p {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+}
+
+.proyect{
+
+}
+
+.java {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+}
+
+.java video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.java .java-contener {
+  position: relative;
+  z-index: 1;
+}
+
+.python{
+
+}
+
+.title_proyect {
+  text-align: center; /* Centrar el texto horizontalmente */
+  font-size: 28px; /* Tamaño de fuente grande */
+  font-weight: bold; /* Texto en negrita */
+  color: #007bff; /* Color azul llamativo */
+  text-transform: uppercase; /* Convertir el texto en mayúsculas */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Sombra del texto */
+  padding: 10px; /* Espaciado interior para que se destaque */
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 0 100px;
+  gap: 100px;
+}
+
+.grid-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.project-hidden {
+  display: none;
+}
+
+.btn-show-more {
+  padding: 40px;
+  text-align: center; /* Centrar contenido horizontalmente */
+}
+
+.show-more-btn {
+  background-color: rgba(0, 0, 255, 0.5);
+  color: rgba(255, 255, 255);
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 20px;
+  transition: .5s, color .10s;
+  -webkit-transition: .5s, color .10s;
+  -moz-transition: .5s, color .10s;
+}
+
+.show-more-btn:hover{
+  background-color: rgba(0, 0, 255);
+  box-shadow: 0 8px 8px 0 #000000,0 8px 8px 0 #000000;
+  transform: translatey(20px);
+  -webkit-transform: translatey(20px);
+  -moz-transform: translatey(20px);
+}
+
+.flicker {
+  animation-name: flicker;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes flicker {
+  0% { opacity: 1; }
+  25% { opacity: 0.5; }
+  50% { opacity: 1; }
+  75% { opacity: 0.5; }
+  100% { opacity: 1; }
+}

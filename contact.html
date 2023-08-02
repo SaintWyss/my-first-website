@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mi Primer Website</title>
+  <link rel="stylesheet" href="css/navbar.css">
+  <link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+<main>
+  <div class="background">
+
+    <div class="container-nav">
+      <nav class="navbar" role="navigation">
+        <a href="#" class="brand">My Website</a>
+        <ul class="nav-links">
+          <li><a href="index.html" class="menu1">Inicio</a></li>
+          <li><a href="personal.html" class="menu2">Sobre mí</a></li>
+          <li><a href="proyect.html" class="menu3">Proyect</a></li>
+          <li><a href="contact.html" class="menu4">Contacto</a></li>
+        </ul>
+      </nav>
+      <button class="button-menu-toggle">Menú</button>
+    </div>
+
+    <section class="contact">
+      <div class="contact-container">
+        <h2>Contact Me</h2>
+        <p>If you have any questions, suggestions, or just want to say hi, please fill out the form below. I'd love to hear from you!</p>
+        <form class="contact-form">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required placeholder="Your Name">
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required placeholder="Your Email">
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required placeholder="Your Message"></textarea>
+          </div>
+
+          <div class="form-group">
+            <button type="submit">Send Message</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+  </div>
+</main>
+<footer class="footer">
+  <p>All materials © Santiago V. Scacciaferro W. 2023</p>
+  <p>Email: Santiagov.scacciaferrow@gmail.com</p>
+  <p>Social: <a href="https://www.linkedin.com/in/santiago-vicente-scacciaferro-wyss-48b69a223/" target="_blank">LinkedIn</a></p>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>

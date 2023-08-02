@@ -1,0 +1,78 @@
+.background{
+  background-image: url("img/fondointro.jpg");
+}
+.background{
+  background-image: url("img/fondointro.jpg");
+  max-height: 100%;
+  padding: 12px;
+}
+
+.contact {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.contact p {
+  font-size: 16px;
+  margin-bottom: 30px;
+  color: #777;
+}
+
+.contact-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Estilos del formulario */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-group {
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+.form-group button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 12px 30px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-group button:hover {
+  background-color: #0056b3;
+}
