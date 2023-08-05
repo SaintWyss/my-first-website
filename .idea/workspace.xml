@@ -4,16 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0bac40b6-ce09-4450-863c-2003be101e29" name="Changes" comment="rename main.js to script.js" />
+    <list default="true" id="0bac40b6-ce09-4450-863c-2003be101e29" name="Changes" comment="cambios en el navbar" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Santiago V. Scacciaferro W &lt;santiagov.scacciaferrow@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
     <option name="recentBranches">
       <RecentBranches>
         <option name="branchesForRepo">
@@ -38,9 +44,9 @@
       </RecentBranches>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2TQryEAfeZfJr2852elr0pZqUdK" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -58,7 +64,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/Archivos/Estudio/WebStorm/Mi-Primer-Proyecto",
+    "last_opened_file_path": "D:/Archivos/Estudio/WebStorm/My-first-website",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -82,6 +88,7 @@
       <option name="presentableId" value="Default" />
       <updated>1690986398029</updated>
       <workItem from="1690986400286" duration="2596000" />
+      <workItem from="1691278329803" duration="323000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -99,7 +106,15 @@
       <option name="project" value="LOCAL" />
       <updated>1690987821435</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="cambios en el navbar">
+      <option name="closed" value="true" />
+      <created>1691278651522</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1691278651522</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,6 +124,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="first commit" />
     <MESSAGE value="rename main.js to script.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="rename main.js to script.js" />
+    <MESSAGE value="cambios en el navbar" />
+    <option name="LAST_COMMIT_MESSAGE" value="cambios en el navbar" />
   </component>
 </project>
