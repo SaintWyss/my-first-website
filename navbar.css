@@ -281,12 +281,12 @@ a:hover {
     }
 }
 .footer background{
-    background-image: url("img/espacio1.jpg");
+    background-image: url("espacio1.jpg");
 }
 
 .footer {
     /* Estilos para el footer */
-    background-image: url("img/espacio1.jpg");
+    background-image: url("espacio1.jpg");
     background-size: cover;
     color: #fff;
     /* texto */

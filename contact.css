@@ -1,8 +1,5 @@
 .background{
-  background-image: url("img/fondointro.jpg");
-}
-.background{
-  background-image: url("img/fondointro.jpg");
+  background-image: url("fondointro.jpg");
   max-height: 100%;
   padding: 12px;
 }
