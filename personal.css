@@ -1,5 +1,5 @@
 .background{
-  background-image: url("fondointro.jpg");
+  background-image: url("img/fondointro.jpg");
   max-height: 100%;
   padding: 12px;
 }
@@ -59,11 +59,8 @@
   font-family: Arial, sans-serif;
 }
 
-.java-container background{
-  background-image: url("fondointro.jpg");
-}
 .proyectos{
-  background-image: url("fondointro.jpg");
+  background-image: url("img/fondointro.jpg");
   background-size: cover;
 }
 .java-container {

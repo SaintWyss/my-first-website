@@ -1,5 +1,5 @@
 .background{
-  background-image: url("fondointro.jpg");
+  background-image: url("img/fondointro.jpg");
   max-height: 100%;
   padding: 12px;
 }
@@ -59,15 +59,10 @@
   font-family: Arial, sans-serif;
 }
 
-.upcoming backgound{
-  background-image: url("espacio1.jpg");
-
-}
-
 .upcoming {
   padding: 300px 0;
   text-align: center;
-  background-image: url("espacio1.jpg");
+  background-image: url("img/espacio1.jpg");
   background-size: cover; /* Ajusta la imagen al tamaño del contenedor */
   background-repeat: no-repeat; /* Evita la repetición de la imagen de fondo */
 }
@@ -77,7 +72,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url("fondointro.jpg");
+  background-image: url("img/fondointro.jpg");
   background-size: cover;
   background-position: center;
   text-align: center;

@@ -280,13 +280,10 @@ a:hover {
         font-size: 40px;
     }
 }
-.footer background{
-    background-image: url("espacio1.jpg");
-}
 
 .footer {
     /* Estilos para el footer */
-    background-image: url("espacio1.jpg");
+    background-image: url("img/espacio1.jpg");
     background-size: cover;
     color: #fff;
     /* texto */
